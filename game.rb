@@ -28,7 +28,6 @@ class Game
     @current_answer = number1 + number2
     puts "-----NEW TURN-----"
     puts "#{@current_player.name}: What does #{number1} plus #{number2} equal?"
-    puts @current_answer
     player_answer = gets.chomp
     answer(player_answer)
 
